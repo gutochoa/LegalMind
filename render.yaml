@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telmos-api
+    env: node
+    plan: free
+    region: oregon
+    branch: main
+    buildCommand: npm install
+    startCommand: node server.js
+    rootDir: .
+    repo: https://github.com/gutochoa/LegalMind
