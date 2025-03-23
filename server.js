@@ -25,3 +25,4 @@ app.post('/manifesto', (req, res) => {
 app.listen(PORT, () => {
   console.log(`🧠 TELMOS_API rodando em http://localhost:${PORT}/manifesto`);
 });
+// 🔁 Forçando re-redeploy Sun Mar 23 06:41:26 -03 2025
